@@ -130,13 +130,7 @@ tytspot auth tyt_your_tytspot_key
 
 Use `SHA256SUMS.txt` to verify your download before running it.
 
-## Production API
 
-The release binaries use the production TYTSPOT API by default:
-
-```text
-https://api.tytspot.com/v1
-```
 
 ## Source code
 
