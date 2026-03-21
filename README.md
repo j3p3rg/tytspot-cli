@@ -142,31 +142,9 @@ https://api.tytspot.com/v1
 
 Source code is available here:
 
-[https://github.com/j3p3rg/tytspot-cli](https://github.com/j3p3rg/tytspot-cli)
+- [https://github.com/j3p3rg/tytspot-cli/releases/latest](https://github.com/j3p3rg/tytspot-cli/releases/latest)
 
-## Monorepo layout
 
-- `apps/web`: dashboard, auth, billing, docs, admin, and public site
-- `apps/api`: scan orchestration API, account flows, billing, reports, GitHub integration
-- `apps/worker`: queue-driven scan execution, validation engines, finding normalization
-- `apps/cli`: developer CLI for scans, reports, and CI workflows
-- `packages/shared`: shared constants and normalization helpers
-
-## Local development
-
-```bash
-pnpm install
-docker compose up -d postgres redis minio
-pnpm prisma:generate
-pnpm prisma:migrate
-pnpm seed
-pnpm dev
-```
-
-Default local services:
-
-- web: `http://localhost:3000`
-- api: `http://localhost:4000`
 
 ## Recommendation
 
